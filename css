@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.cssのコード */
+
+h1 {
+  /* 左寄せで重ねる */
+  /* float: left; */
+  /* フォントの色 */
+  color: #ffffff;
+  margin: 5px 10px;
+  padding: 0;
+  background: linear-gradient(#123272df,#4f5a83c8);
+}
+
+h2 {
+  /* 左寄せで重ねる */
+  /* float: left; */
+  /* フォントの色 */
+  color: #000000;
+  margin: 5px 10px;
+  padding: 0;
+}
+
+
+/* Appクラスセレクタ(1) */
+.App {
+  /* 余白を上下左右10pxずつ(2) */
+  padding: 10px;
+}
+
+/* Appクラスセレクタ(1) */
+.App2 {
+  /* 余白を上下左右10pxずつ(2) */
+  padding: 10px;
+}
+
+/* tdセレクタ(3) */
+td {
+  /* ボーダーの線(4) */
+  border: 1px solid #000;
+}
+
+
+/* buttonセレクタ，inputセレクタ(5) */
+button,
+input {
+  /* 余白を上下左右5pxずつ(6) */
+  margin: 5px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input-section, .distance-calculation-section {
+  text-align: left;
+}
+
